@@ -13,22 +13,12 @@ P032.out:### I computed an invalid number. (line 230)
 P035.out:### I computed a number too big to store. (line 250)
 P036.out:@@@ There should be another expression or a ")" here.
 P037.out:@@@ The expression is incomplete.
-P044.out:SHOULD BE:  0      ACTUAL:  1    RESULT: FAILED
-P044.out:SHOULD BE:  0      ACTUAL:  1    RESULT: FAILED
-P044.out:*** TEST FAILED IN  2  CASE(S) ***
-P046.out: 7            8             FAILED
-P046.out:SHOULD BE:  5      ACTUAL:  1     RESULT: FAILED
-P046.out:***  TEST FAILED  ***
-P047.out:SHOULD BE:  0      ACTUAL:  1    RESULT: FAILED
-P047.out:*** TEST FAILED  ***
+P046.out:### I couldn't find a FOR for this NEXT. (line 1050)
 P049.out:   4) RESULT (OK OR FAILED)
-P049.out:SHOULD BE:  204      ACTUAL:  207    RESULT: FAILED
-P049.out:*** TEST FAILED ***
-P053.out:### I can't execute out-of-order NEXT statements in this dialect of BASIC. (line 270)
+P053.out:### I couldn't find a FOR for this NEXT. (line 270)
+P054.out:### I couldn't find a FOR for this NEXT. (line 310)
 P055.out:### I couldn't find a FOR for this NEXT. (line 310)
-P062.out:### I already dimensioned this array (D) earlier. (line 330)
-P063.out:ASSIGNMENT TO SUBSCRIPT > 10 - *** TEST FAILS ***
-P063.out:### I tried to lookup A(12) but it exceeded the dimensions of the array. (line 270)
+P063.out:### I tried to lookup A(11) but it exceeded the dimensions of the array. (line 270)
 P064.out:### I tried to lookup B(7,-1) but an index was less than 0. (line 270)
 P065.out:### I tried to lookup A(-1) but an index was less than 0. (line 280)
 P066.out:### I tried to lookup B(0,13) but it exceeded the dimensions of the array. (line 280)
@@ -45,7 +35,8 @@ P078.out:### I tried to lookup A(0,0) but used too many dimensions. (line 270)
 P079.out:@@@ The selected BASIC dialect (ECMA55) doesn't support array names other than a single letter.
 P081.out:### I tried to lookup A(0) but an index was less than 1. (line 430)
 P082.out:### I tried to lookup A(0) but an index was less than 1. (line 240)
-P084.out:### I already dimensioned this array (A) earlier. (line 770)
+P083.out:### I tried to lookup A(6) but it exceeded the dimensions of the array. (line 400)
+P084.out:### I tried to lookup A(13) but it exceeded the dimensions of the array. (line 750)
 P086.out:### I tried to RETURN, but there wasn't a corresponding GOSUB. (line 320)
 P087.out:@@@ There isn't a line number 285.
 P089.out:### I needed a number between 1 and 2, but I got 0. (line 180)
@@ -80,10 +71,12 @@ P122.out:### I computed a number too big to store. (line 250)
 P125.out:### I can't take the logarithm of zero (0). (line 240)
 P126.out:### I can't take the logarithm of a negative number (-3). (line 240)
 P129.out:***  TEST FAILED  ***
-P131.out:@@@ There should be a command here.
+P133.out:THE TEST FAILS.
+P134.out:OF THE RESULTING STATISTICS, THEN THE TEST FAILS.
 P147.out:@@@ The expression is incomplete.
 P149.out:@@@ The expression is incomplete.
 P150.out:### I computed an invalid number. (line 340)
+P154.out:### I computed an invalid number. (line 250)
 P155.out:@@@ The expression is incomplete.
 P158.out:### I can't use the "+" operator to concatenate strings in this dialect of BASIC. (line 340)
 P161.out:### Maximum call stack size exceeded (line 300)
