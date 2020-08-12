@@ -1,140 +1,169 @@
-P016.out:@@@ There isn't a line number 275.
-P021.out:@@@ There isn't a line number 295.
-P026.out:24           -4              4             TEST FAILS
-P026.out:*** TEST FAILED IN  1  CASE(S). ***
-P026.out:5            -16             16            TEST FAILS
-P026.out:*** TEST FAILED IN  1  CASE(S). ***
-P028.out:### I can't divide by zero. (line 220)
-P029.out:### I computed a number too big to store. (line 260)
-P030.out:@@@ The number 3E99999 is too big to fit into a floating-point value.
-P030.out:@@@ The number 3E99999 is too big to fit into a floating-point value.
-P031.out:### I can't raise zero to a negative power. (line 220)
-P032.out:### I computed an invalid number. (line 230)
-P035.out:### I computed a number too big to store. (line 250)
-P036.out:@@@ There should be another expression or a ")" here.
-P037.out:@@@ The expression is incomplete.
-P046.out:### I couldn't find a FOR for this NEXT. (line 1050)
-P049.out:   4) RESULT (OK OR FAILED)
-P053.out:### I couldn't find a FOR for this NEXT. (line 270)
-P054.out:### I couldn't find a FOR for this NEXT. (line 310)
-P055.out:### I couldn't find a FOR for this NEXT. (line 310)
-P063.out:### I tried to lookup A(11) but it exceeded the dimensions of the array. (line 270)
-P064.out:### I tried to lookup B(7,-1) but an index was less than 0. (line 270)
-P065.out:### I tried to lookup A(-1) but an index was less than 0. (line 280)
-P066.out:### I tried to lookup B(0,13) but it exceeded the dimensions of the array. (line 280)
-P067.out:### I tried to lookup A(0) but an index was less than 1. (line 280)
-P068.out:### I tried to lookup A(8) but it exceeded the dimensions of the array. (line 300)
-P069.out:### I tried to lookup B(0,13) but it exceeded the dimensions of the array. (line 300)
-P070.out:### I tried to lookup A(-1) but an index was less than 0. (line 280)
-P071.out:### I tried to lookup B(-1,3) but an index was less than 0. (line 300)
-P072.out:### I tried to lookup B(12,0) but an index was less than 1. (line 310)
-P073.out:### I tried to lookup A(0) but an index was less than 1. (line 400)
-P074.out:### I tried to lookup A(0,0) but used too many dimensions. (line 260)
-P076.out:### I tried to lookup A(0) but used too few dimensions. (line 250)
-P078.out:### I tried to lookup A(0,0) but used too many dimensions. (line 270)
-P079.out:@@@ The selected BASIC dialect (ECMA55) doesn't support array names other than a single letter.
-P081.out:### I tried to lookup A(0) but an index was less than 1. (line 430)
-P082.out:### I tried to lookup A(0) but an index was less than 1. (line 240)
-P083.out:### I tried to lookup A(6) but it exceeded the dimensions of the array. (line 400)
-P084.out:### I tried to lookup A(13) but it exceeded the dimensions of the array. (line 750)
-P086.out:### I tried to RETURN, but there wasn't a corresponding GOSUB. (line 320)
-P087.out:@@@ There isn't a line number 285.
-P089.out:### I needed a number between 1 and 2, but I got 0. (line 180)
-P090.out:### I needed a number between 1 and 2, but I got 3. (line 180)
-P091.out:@@@ There isn't a line number 295.
-P093.out:@@@ The number . is not a valid floating-point number.
-P093.out:@@@ Expected end of line or ':'
-P093.out:@@@ Expected end of line or ':'
-P093.out:@@@ Expected end of line or ':'
-P097.out:### I tried to READ, but ran out of data. (line 230)
-P098.out:@@@ Expected end of line or ':'
-P099.out:### I can't convert 7 to a number. (line 290)
-P101.out:@@@ The number 9.9E99999 is too big to fit into a floating-point value.
-P101.out:@@@ The number 9.9E99999 is too big to fit into a floating-point value.
-P102.out:@@@ Expected end of line or ':'
-P103.out:@@@ Expected end of line or ':'
-P104.out:@@@ Expected end of line or ':'
-P105.out:@@@ The expression is incomplete.
-P106.out:@@@ There should be a variable name here.
-P107.out:***  TEST FAILED  ***
-P109.out:***  TEST FAILED  ***
-P110.out:***  TEST FAILED  ***
-P111.out:***  TEST FAILS  ***
-P112.out:*** IF NOT ALLOWED TO RE-SUPPLY INPUT, TEST FAILS ***
-P112.out:1 - PROCESSOR FAILED TO TREAT REPLY AS EXCEPTION
-P112.out:TEST FAILS, UNLESS DOCUMENTED SYNTACTIC ENHANCEMENT.
-P112.out:1 - PROCESSOR FAILED TO TREAT REPLY AS EXCEPTION
-P112.out:TEST FAILS, UNLESS DOCUMENTED SYNTACTIC ENHANCEMENT.
-P113.out:@@@ There should be a variable name here.
-P118.out:### I can't take the square root of a negative number (-3). (line 240)
-P122.out:### I computed a number too big to store. (line 250)
-P125.out:### I can't take the logarithm of zero (0). (line 240)
-P126.out:### I can't take the logarithm of a negative number (-3). (line 240)
-P129.out:***  TEST FAILED  ***
-P133.out:THE TEST FAILS.
-P134.out:OF THE RESULTING STATISTICS, THEN THE TEST FAILS.
-P147.out:@@@ The expression is incomplete.
-P149.out:@@@ The expression is incomplete.
-P150.out:### I computed an invalid number. (line 340)
-P154.out:### I computed an invalid number. (line 250)
-P155.out:@@@ The expression is incomplete.
-P158.out:### I can't use the "+" operator to concatenate strings in this dialect of BASIC. (line 340)
-P161.out:### Maximum call stack size exceeded (line 300)
-P162.out:### I haven't run a DEF statement for FND. (line 290)
-P163.out:### I haven't run a DEF statement for FNA. (line 210)
-P167.out:### I can't divide by zero. (line 320)
-P168.out:### I computed a number too big to store. (line 390)
-P170.out:### I computed an invalid number. (line 290)
-P171.out:### I can't take the logarithm of a negative number (-2). (line 270)
-P172.out:### I can't take the square root of a negative number (-2). (line 200)
-P176.out:### I computed an invalid number. (line 230)
-P177.out:### I computed a number too big to store. (line 290)
-P179.out:### I can't take the logarithm of zero (0). (line 210)
-P180.out:### I can't divide by zero. (line 250)
-P181.out:### I needed a number between 1 and 3, but I got 0. (line 300)
-P182.out:### I computed an invalid number. (line 190)
-P183.out:### I can't divide by zero. (line 360)
-P188.out:@@@ There should be a command here.
-P188.out:@@@ There should be a command here.
-P189.out:@@@ There should be a command here.
-P189.out:@@@ There should be a command here.
-P189.out:@@@ There should be a command here.
-P191.out:@@@ The selected BASIC dialect (ECMA55) doesn't support variable names other than a letter followed by an optional digit.
-P191.out:@@@ The selected BASIC dialect (ECMA55) doesn't support variable names other than a letter followed by an optional digit.
-P191.out:@@@ The selected BASIC dialect (ECMA55) doesn't support variable names other than a letter followed by an optional digit.
-P192.out:@@@ The expression is incomplete.
-P194.out:@@@ Expected end of line or ':'
-P195.out:@@@ Expected end of line or ':'
-P197.out:@@@ There's a duplicated label "220".
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P201.out:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers.
-P207.out:### I can't convert 123 to a number. (line 270)
-P208.out:### I can't convert 111 to a string. (line 270)
+NBS/P016.test:@@@ There isn't a line number 275. (line null)
+NBS/P021.test:@@@ There isn't a line number 295. (line null)
+NBS/P026.test:24           -4              4             TEST FAILS
+NBS/P026.test:*** TEST FAILED IN  1  CASE(S). ***
+NBS/P026.test:5            -16             16            TEST FAILS
+NBS/P026.test:*** TEST FAILED IN  1  CASE(S). ***
+NBS/P028.test:### I can't divide by zero. (line 220)
+NBS/P029.test:### I computed a number too big to store. (line 260)
+NBS/P030.test:@@@ The number 3E99999 is too big to fit into a floating-point value. (line 360)
+NBS/P030.test:@@@ The number 3E99999 is too big to fit into a floating-point value. (line 770)
+NBS/P031.test:### I can't raise zero to a negative power. (line 220)
+NBS/P032.test:### I computed an invalid number. (line 230)
+NBS/P035.test:### I computed a number too big to store. (line 250)
+NBS/P036.test:@@@ There should be another expression or a ")" here. (line 250)
+NBS/P037.test:@@@ The expression is incomplete. (line 250)
+NBS/P046.test:### I couldn't find a matching FOR for this NEXT. (line 1050)
+NBS/P049.test:   4) RESULT (OK OR FAILED)
+NBS/P053.test:### I couldn't find a matching FOR for this NEXT. (line 270)
+NBS/P054.test:### I couldn't find a matching FOR for this NEXT. (line 310)
+NBS/P055.test:### I couldn't find a matching FOR for this NEXT. (line 310)
+NBS/P063.test:### I tried to lookup A(11) but it exceeded the dimensions of the array. (line 270)
+NBS/P064.test:### I tried to lookup B(7,-1) but an index was less than 0. (line 270)
+NBS/P065.test:### I tried to lookup A(-1) but an index was less than 0. (line 280)
+NBS/P066.test:### I tried to lookup B(0,13) but it exceeded the dimensions of the array. (line 280)
+NBS/P067.test:### I tried to lookup A(0) but an index was less than 1. (line 280)
+NBS/P068.test:### I tried to lookup A(8) but it exceeded the dimensions of the array. (line 300)
+NBS/P069.test:### I tried to lookup B(0,13) but it exceeded the dimensions of the array. (line 300)
+NBS/P070.test:### I tried to lookup A(-1) but an index was less than 0. (line 280)
+NBS/P071.test:### I tried to lookup B(-1,3) but an index was less than 0. (line 300)
+NBS/P072.test:### I tried to lookup B(12,0) but an index was less than 1. (line 310)
+NBS/P073.test:### I tried to lookup A(0) but an index was less than 1. (line 400)
+NBS/P074.test:### I tried to lookup A(0,0) but used too many dimensions. (line 260)
+NBS/P076.test:### I tried to lookup A(0) but used too few dimensions. (line 250)
+NBS/P078.test:### I tried to lookup A(0,0) but used too many dimensions. (line 270)
+NBS/P079.test:@@@ The selected BASIC dialect (ECMA55) doesn't support array names other than a single letter. (line 240)
+NBS/P081.test:### I tried to lookup A(0) but an index was less than 1. (line 430)
+NBS/P082.test:### I tried to lookup A(0) but an index was less than 1. (line 240)
+NBS/P083.test:### I tried to lookup A(6) but it exceeded the dimensions of the array. (line 400)
+NBS/P084.test:### I tried to lookup A(13) but it exceeded the dimensions of the array. (line 750)
+NBS/P086.test:### I tried to RETURN, but there wasn't a corresponding GOSUB. (line 320)
+NBS/P087.test:@@@ There isn't a line number 285. (line null)
+NBS/P089.test:### I needed a number between 1 and 2, but I got 0. (line 180)
+NBS/P090.test:### I needed a number between 1 and 2, but I got 3. (line 180)
+NBS/P091.test:@@@ There isn't a line number 295. (line null)
+NBS/P093.test:@@@ The number . is not a valid floating-point number. (line 2030)
+NBS/P093.test:@@@ Expected end of line or ':' (line 2040)
+NBS/P093.test:@@@ Expected end of line or ':' (line 2070)
+NBS/P093.test:@@@ Expected end of line or ':' (line 2080)
+NBS/P097.test:### I tried to READ, but ran out of data. (line 230)
+NBS/P098.test:@@@ Expected end of line or ':' (line 260)
+NBS/P099.test:### I can't convert 7 to a number. (line 290)
+NBS/P101.test:@@@ The number 9.9E99999 is too big to fit into a floating-point value. (line 180)
+NBS/P101.test:@@@ The number 9.9E99999 is too big to fit into a floating-point value. (line 370)
+NBS/P102.test:@@@ Expected end of line or ':' (line 290)
+NBS/P103.test:@@@ Expected end of line or ':' (line 315)
+NBS/P104.test:@@@ Expected end of line or ':' (line 315)
+NBS/P105.test:@@@ The expression is incomplete. (line 290)
+NBS/P106.test:@@@ There should be a variable name here. (line 270)
+NBS/P107.test:***  TEST FAILED  ***
+NBS/P109.test:***  TEST FAILED  ***
+NBS/P110.test:***  TEST FAILED  ***
+NBS/P111.test:***  TEST FAILS  ***
+NBS/P112.test:*** IF NOT ALLOWED TO RE-SUPPLY INPUT, TEST FAILS ***
+NBS/P112.test:1 - PROCESSOR FAILED TO TREAT REPLY AS EXCEPTION
+NBS/P112.test:TEST FAILS, UNLESS DOCUMENTED SYNTACTIC ENHANCEMENT.
+NBS/P112.test:1 - PROCESSOR FAILED TO TREAT REPLY AS EXCEPTION
+NBS/P112.test:TEST FAILS, UNLESS DOCUMENTED SYNTACTIC ENHANCEMENT.
+NBS/P113.test:@@@ There should be a variable name here. (line 270)
+NBS/P118.test:### I can't take the square root of a negative number (-3). (line 240)
+NBS/P122.test:### I computed a number too big to store. (line 250)
+NBS/P125.test:### I can't take the logarithm of zero (0). (line 240)
+NBS/P126.test:### I can't take the logarithm of a negative number (-3). (line 240)
+NBS/P129.test:***  TEST FAILED  ***
+NBS/P133.test:THE TEST FAILS.
+NBS/P134.test:OF THE RESULTING STATISTICS, THEN THE TEST FAILS.
+NBS/P147.test:@@@ The expression is incomplete. (line 250)
+NBS/P149.test:@@@ The expression is incomplete. (line 250)
+NBS/P150.test:### I computed an invalid number. (line 340)
+NBS/P154.test:### I computed an invalid number. (line 250)
+NBS/P155.test:@@@ The expression is incomplete. (line 290)
+NBS/P158.test:### I can't use the "+" operator to concatenate strings in this dialect of BASIC. (line 340)
+NBS/P161.test:### Maximum call stack size exceeded (line 300)
+NBS/P162.test:### I haven't run a DEF statement for FND. (line 290)
+NBS/P163.test:### I haven't run a DEF statement for FNA. (line 210)
+NBS/P167.test:### I can't divide by zero. (line 320)
+NBS/P168.test:### I computed a number too big to store. (line 390)
+NBS/P170.test:### I computed an invalid number. (line 290)
+NBS/P171.test:### I can't take the logarithm of a negative number (-2). (line 270)
+NBS/P172.test:### I can't take the square root of a negative number (-2). (line 200)
+NBS/P176.test:### I computed an invalid number. (line 230)
+NBS/P177.test:### I computed a number too big to store. (line 290)
+NBS/P179.test:### I can't take the logarithm of zero (0). (line 210)
+NBS/P180.test:### I can't divide by zero. (line 250)
+NBS/P181.test:### I needed a number between 1 and 3, but I got 0. (line 300)
+NBS/P182.test:### I computed an invalid number. (line 190)
+NBS/P183.test:### I can't divide by zero. (line 360)
+NBS/P188.test:@@@ There should be a command here. (line 2)
+NBS/P188.test:@@@ There should be a command here. (line 25)
+NBS/P189.test:@@@ There should be a command here. (line 240)
+NBS/P189.test:@@@ There should be a command here. (line 250)
+NBS/P189.test:@@@ There should be a command here. (line 270)
+NBS/P191.test:@@@ The selected BASIC dialect (ECMA55) doesn't support variable names other than a letter followed by an optional digit. (line 250)
+NBS/P191.test:@@@ The selected BASIC dialect (ECMA55) doesn't support variable names other than a letter followed by an optional digit. (line 260)
+NBS/P191.test:@@@ The selected BASIC dialect (ECMA55) doesn't support variable names other than a letter followed by an optional digit. (line 280)
+NBS/P192.test:@@@ The expression is incomplete. (line 280)
+NBS/P194.test:@@@ Expected end of line or ':' (line 260)
+NBS/P195.test:@@@ Expected end of line or ':' (line 260)
+NBS/P197.test:@@@ There's a duplicated label "220". (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P201.test:@@@ The selected BASIC dialect (ECMA55) doesn't support optional line numbers. (line null)
+NBS/P207.test:### I can't convert 123 to a number. (line 270)
+NBS/P208.test:### I can't convert 111 to a string. (line 270)
+basic_computer_games/lunar.test:THE ON-BOARD COMPUTER HAS FAILED (IT WAS MADE BY
+basic_computer_games/poker.test:@@@ There should be a command here. (line 3980)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 1040)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 1390)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 1990)
+basic_computer_games/superstartrek.test:@@@ There should be a GOTO or GOSUB here. (line 2140)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 2310)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 2360)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 2380)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 2790)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 3170)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 3450)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 3850)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 3860)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 4120)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 4780)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 4960)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 5150)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 5360)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 5580)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 5590)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 6120)
+basic_computer_games/superstartrek.test:@@@ There should be a "THEN" or "GOTO" here. (line 6450)
+basic_computer_games/superstartrek.test:@@@ There should be a GOTO or GOSUB here. (line 6830)
+basic_computer_games/superstartrek.test:@@@ There should be a GOTO or GOSUB here. (line 8790)
+basic_computer_games/superstartrek.test:@@@ There should be a GOTO or GOSUB here. (line 9030)
+basic_computer_games/superstartrek.test:@@@ There should be a GOTO or GOSUB here. (line 9120)
+basic_computer_games/superstartrek.test:@@@ There should be a GOTO or GOSUB here. (line 9210)
+fast/str.test:### I computed an invalid number. (line 30)
