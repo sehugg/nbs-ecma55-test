@@ -5,7 +5,8 @@ ARGS=
 OUTFILES := \
 	$(patsubst NBS/%.BAS,NBS/%.test,$(wildcard NBS/*.BAS)) \
 	$(patsubst basic_computer_games/%.bas,basic_computer_games/%.test,$(wildcard basic_computer_games/*.bas)) \
-	$(patsubst fast/%.bas,fast/%.test,$(wildcard fast/*.bas))
+	$(patsubst fast/%.bas,fast/%.test,$(wildcard fast/*.bas)) \
+	$(patsubst PCC/%.HPB,PCC/%.test,$(wildcard PCC/*.HPB)) \
 
 all: $(OUTFILES) fails
 
@@ -29,3 +30,8 @@ fast/%.test: fast/%.bas
 basic_computer_games/%.test: basic_computer_games/%.bas
 	-cat basic_computer_games/$*.input | $(BASRUN) -d BASIC80 $< $(ARGS) > $@
 	-diff basic_computer_games/$*.output $@
+
+PCC/%.test: PCC/%.HPB
+	-cat PCC/$*.input | $(BASRUN) -d HPBASIC $< $(ARGS) > $@
+	-diff PCC/$*.output $@
+
