@@ -43,7 +43,11 @@ NBS/P087.test:@@@ There isn't a line number 285. (line null)
 NBS/P089.test:### I needed a number between 1 and 2, but I got 0. (line 180)
 NBS/P090.test:### I needed a number between 1 and 2, but I got 3. (line 180)
 NBS/P091.test:@@@ There isn't a line number 295. (line null)
-NBS/P093.test:@@@ The number . is not a valid floating-point number. (line 2030)
+NBS/P093.test:TEST FAILED
+NBS/P093.test:TEST FAILED
+NBS/P093.test:TEST FAILED
+NBS/P093.test:TEST FAILED
+NBS/P093.test:*** TEST FAILED:  4  CASE(S) HANDLED IMPROPERLY. ***
 NBS/P097.test:### I tried to READ, but ran out of data. (line 230)
 NBS/P098.test:@@@ Expected end of line or ':' (line 260)
 NBS/P099.test:### I can't convert 7 to a number. (line 290)
