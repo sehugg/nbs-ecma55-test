@@ -7,6 +7,7 @@ OUTFILES := \
 	$(patsubst basic_computer_games/%.bas,basic_computer_games/%.test,$(wildcard basic_computer_games/*.bas)) \
 	$(patsubst fast/%.bas,fast/%.test,$(wildcard fast/*.bas)) \
 	$(patsubst PCC/%.HPB,PCC/%.test,$(wildcard PCC/*.HPB)) \
+	$(patsubst presets/%.bas,presets/%.test,$(wildcard presets/*.bas)) \
 
 all: $(OUTFILES) fails
 
@@ -34,4 +35,8 @@ basic_computer_games/%.test: basic_computer_games/%.bas
 PCC/%.test: PCC/%.HPB
 	-cat PCC/$*.input | $(BASRUN) -d HPBASIC $< $(ARGS) > $@
 	-diff PCC/$*.output $@
+
+presets/%.test: presets/%.bas
+	-cat presets/$*.input | $(BASRUN) $< $(ARGS) > $@
+	-diff presets/$*.output $@
 
