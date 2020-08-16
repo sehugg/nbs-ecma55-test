@@ -21,6 +21,9 @@ fails:
 	@egrep "^###|^@@@|TEST FAIL|FAILED" $(OUTFILES) | grep -v INFORMATIVE > fails.txt
 	diff expected.txt fails.txt
 
+corpus.txt:
+	cat */*.BAS */*.bas */*.HPB > $@
+
 NBS/%.test: NBS/%.BAS
 	-grep -hs ^ NBS/$*.in | $(BASRUN) -d ECMA55 $< $(ARGS) > $@
 
