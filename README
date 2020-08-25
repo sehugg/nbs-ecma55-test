@@ -3,6 +3,8 @@ These are a bunch of tests for 8bitworkshop's BASIC compiler/interpreter.
 
 They also include:
 
+https://github.com/wconrad/basic101/tree/master/test/integration/tests
+
 National Bureau of Standards - Minimal BASIC test programs
 
 These are useful with Jorge Giner Cordero's ECMA-55 Minimal BASIC interpreter
@@ -18,5 +20,3 @@ The following tests were kindly supplied by Emmanuel Roche:
 
 Fixes for the following tests were kindly supplied by Jorge Giner Cordero:
 12, 14, 25, 39, 43, 74, 108, 115, 128, 185, 191, 206
-
-Updated: April 1, 2020.
